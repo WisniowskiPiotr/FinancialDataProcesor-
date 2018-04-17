@@ -1,0 +1,1297 @@
+/* Styles for Fanatic.NET */
+
+/* Style ogólne */
+body {
+    font-family: Verdana,Arial,Helvetica;
+    background: url("../images/background.gif");
+}
+
+p {
+    margin-top: 6px;
+    margin-bottom: 4px;
+    color: rgb(0,0,60);
+    font: 12px Verdana,Arial,Helvetica;
+}
+
+H1, .heading1 {
+    margin-bottom: 10;
+    margin-top: 12;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+H2, .heading2 {
+    margin-bottom: 8;
+    margin-top: 12;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+H3, .heading3 {
+    margin-bottom: 5;
+    margin-top: 6;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+H4, .heading4 {
+    margin-bottom: 2;
+    margin-top: 2;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+H5, .heading5 {
+    margin-bottom: 2;
+    margin-top: 2;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+UL {
+    color: rgb(0,0,60);
+    font: 12px Verdana,Arial,Helvetica;
+}
+
+A {
+    color: rgb(150,20,0);
+    font: bold 12px Verdana,Arial,Helvetica;
+    text-decoration: none;
+}
+
+    A:hover {
+        color: rgb(200,40,0);
+        text-decoration: underline;
+    }
+
+
+TEXTAREA, INPUT, SELECT {
+    font-family: MS Sans Serif;
+    font-size: 12px;
+}
+
+.helpCell {
+    border: 1px solid gray;
+}
+
+.helpTable {
+    border-collapse: collapse;
+    border: 1px solid gray;
+}
+
+.smallsymbolbutton {
+    width: 16px;
+    height: 16px;
+    font-size: 11px;
+    font-family: Wingdings;
+}
+
+.symbolbutton {
+    width: 29px;
+    height: 28px;
+    font-size: 19px;
+    font-family: Webdings;
+}
+
+.smallButton {
+    height: 17px;
+    width: 16px;
+    margin-top: 0px;
+    font-size: xx-small;
+    line-height: 9px;
+}
+
+.smalltext {
+    color: rgb(0,0,60);
+    font-size: 10px;
+}
+
+.boxlabelmid {
+    color: rgb(39,39,39);
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.mobile_phone {
+    color: rgb(39,39,39);
+    font-size: 11px;
+    font-weight: bold;
+    background: url(../Images/mobile.png) left center no-repeat;
+    padding-left: 20px;
+}
+
+.home_phone {
+    color: rgb(39,39,39);
+    font-size: 11px;
+    font-weight: bold;
+    background: url(../Images/home.png) left center no-repeat;
+    padding-left: 20px;
+}
+
+.sg_phone {
+    color: rgb(39,39,39);
+    font-size: 11px;
+    font-weight: bold;
+    background: url(../Images/sg_phone.png) left center no-repeat;
+    padding-left: 20px;
+}
+
+.staff_table {
+    background: url(../Images/G_logo.png) right top no-repeat;
+    background-color: White;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.boxlabel {
+    color: rgb(0,0,60);
+    font-size: 10px;
+    font-weight: bold;
+    text-align:right;
+}
+
+.boxlabelbox {
+    Width: 80%;
+}
+
+.subboxlabelbox {
+    Width: 30%;
+}
+
+.span_fill {
+    display: inline-block;
+    overflow: hidden;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+    .span_fill > .boxlabelbox {
+        width: 100%;
+    }
+.gridButton {
+    color: rgb(0,0,60);
+    font-size: 8px;
+}
+
+.boxlabelsmall {
+    color: rgb(0,0,60);
+    font-size: 9px;
+}
+
+.naglowek {
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-size: 18px;
+    font-weight: bold;
+    color: Maroon;
+}
+
+.boxlabelmaroon {
+    color: Maroon;
+    font-size: 11px;
+}
+
+.boxlabelmaroonbold {
+    color: Maroon;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.boxlabelred {
+    color: red;
+    font-size: 10px;
+    font-weight: bold;
+    width:100%;
+}
+
+.boxlabelbig {
+    color: rgb(0,0,60);
+    font-size: 14px;
+    font-weight: bold;
+    text-align:left;
+}
+
+.boxlabelbigmaroon {
+    color: Maroon;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.chartForm {
+    margin: 0px;
+    margin-top: 3px;
+    padding-left: 10px;
+}
+
+.divChart {
+    overflow-y: hidden;
+    POSITION: relative;
+    OVERFLOW: auto;
+    WIDTH: 100%;
+}
+
+/************************************************************/
+/* Definicje styli dla danych wyœwietlanych w postaci listy */
+.DataTab {
+}
+
+    .DataTab tr {
+        border: solid;
+        border-left-color: rgb(235,229,212);
+        border-top-color: rgb(235,229,212);
+        border-right-color: rgb(160,160,160);
+        border-bottom-color: rgb(160,160,160);
+        border-width: 1px;
+        font-size: 10px;
+        text-align: center;
+    }
+.DataTab2 {
+}
+
+    .DataTab2 tr {
+        border: solid;
+        border-left-color: rgb(235,229,212);
+        border-top-color: rgb(235,229,212);
+        border-right-color: rgb(160,160,160);
+        border-bottom-color: rgb(160,160,160);
+        border-width: 1px;
+        font-size: 10px;
+        text-align:left;
+    }
+
+.tabrow {
+    cursor: pointer;
+    background: rgb(235,229,212);
+}
+
+.tabrow2 {
+    cursor: pointer;
+    background: rgb(255,255,212);
+}
+
+.tabrowsel {
+    cursor: pointer;
+    background: rgb(250,169,152);
+}
+
+.tabhead {
+    background: rgb(210,180,140);
+    cursor: pointer;
+}
+
+    .tabhead td {
+        font-weight: bold;
+        text-align: center;
+    }
+
+
+
+
+
+.tdExtraPadding td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tabrowBig {
+    cursor: pointer;
+    /*padding: 2px 5px 2px 5px;
+    margin: 2px 0px 2px 0px;*/
+    color: rgb(0,0,80);
+    background: rgb(235,229,212);
+    border: solid;
+    border-color: tan;
+    border-width: 1px;
+    font-size: 14px;
+}
+
+
+
+.tabrow2Big {
+    cursor: pointer;
+    /*padding: 2px 5px 2px 5px;
+    margin: 2px 0px 2px 0px;*/
+    color: rgb(0,0,80);
+    background: rgb(255,255,212);
+    border: solid;
+    border-color: tan;
+    border-width: 1px;
+    font-size: 14px;
+}
+
+.tabsubrow {
+    cursor: pointer;
+    /*padding: 2px 5px 2px 5px;
+    margin: 2px 0px 2px 0px;*/
+    color: rgb(0,0,120);
+    background: rgb(245,239,222);
+    border: solid;
+    border-color: tan;
+    border-width: 1px;
+    font-size: 10px;
+}
+
+
+
+
+
+.tabheadbig {
+    /*padding: 2px 5px 2px 5px;
+    margin: 2px 0px 2px 0px;*/
+    color: rgb(0,0,40);
+    background: rgb(210,180,140);
+    border: solid;
+    border-color: tan;
+    border-width: 1px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tabfoot {
+    cursor: pointer;
+    /*padding: 2px 5px 2px 5px;
+    margin: 2px 0px 2px 0px;*/
+    color: rgb(0,0,0);
+    background: rgb(205,209,202);
+    border: solid;
+    border-color: tan;
+    border-width: 1px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.tabpager {
+    /*padding: 2px 5px 2px 5px;
+    margin: 2px 0px 2px 0px;*/
+    background: rgb(220,190,150);
+    border: solid;
+    border-color: tan;
+    border-width: 1px;
+    font-size: 10px;
+    color: brown;
+    font-weight: bold;
+}
+
+*.tabpager A {
+    /*padding: 2px 5px 2px 5px;
+    margin: 2px 0px 2px 0px;*/
+    color: rgb(0,0,40);
+    background: rgb(220,190,150);
+    border: solid;
+    border-color: tan;
+    border-width: 1px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+*.tabhead A {
+    /*padding: 2px 5px 2px 5px;
+    margin: 2px 0px 2px 0px;*/
+    color: rgb(0,0,40);
+    background: rgb(210,180,140);
+    border: solid;
+    border-color: tan;
+    border-width: 1px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Dodatkowe style dla raportu ProfitAnalysis */
+.NItabrow {
+    cursor: pointer;
+    padding: 2px 5px 2px 5px;
+    margin: 2px 0px 2px 0px;
+    color: rgb(0,0,80);
+    background: rgb(235,229,242);
+    font-size: 10px;
+}
+
+.Ttabfoot {
+    cursor: pointer;
+    padding: 2px 5px 2px 5px;
+    margin: 2px 0px 2px 0px;
+    color: rgb(200,0,0);
+    background: rgb(205,209,202);
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.SGtabfoot {
+    cursor: pointer;
+    padding: 2px 5px 2px 5px;
+    margin: 2px 0px 2px 0px;
+    color: rgb(0,0,0);
+    background: rgb(245,209,202);
+    font-size: 10px;
+    font-weight: bold;
+}
+/************************************************************/
+
+/* Przyciski nawigacyjne */
+.NavButton {
+    font-family: Verenda;
+    font-size: 8px;
+    font-weight: bold;
+    width: 40px;
+}
+
+/* Licznik pokazuj¹cy numer aktualnego rekordu */
+.Counter {
+    width: 120px;
+    text-align: center;
+    color: rgb(0,0,60);
+    font-size: 10px;
+    font-weight: bold;
+}
+
+/* Style s³u¿¹ce do wyœwietlania danych w postaci kartach  - wersja 1 */
+TABLE.tab1 {
+    border-collapse: collapse;
+    empty-cells: show;
+}
+
+TD.tab1_header_active {
+    color: rgb(150,20,0);
+    font: bold 12px Verdana,Arial,Helvetica;
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid peru;
+    border-bottom: 2px solid tan;
+    background-color: tan;
+}
+
+TD.tab1_header_inactive {
+    color: Gray;
+    font: bold 12px Verdana,Arial,Helvetica;
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid darkgray;
+    border-bottom: 2px solid peru;
+    background-color: Gainsboro;
+    cursor: pointer;
+}
+
+TD.tab1_header_invisible {
+    color: Gray;
+    font: bold 12px Verdana,Arial,Helvetica;
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid darkgray;
+    border-bottom: 2px solid peru;
+    background-color: Gainsboro;
+    display: none;
+}
+
+TD.tab1_header_space {
+    border-collapse: collapse;
+    border: 2px transparent;
+}
+
+TD.tab1_body {
+    border-collapse: collapse;
+    border: 2px solid peru;
+}
+/************************************************************/
+    /* Style s³u¿¹ce do wyœwietlania danych w postaci kartach  - wersja 2 */
+    TABLE .tab2 {
+    border: 1px none black;
+    border-collapse: collapse;
+    empty-cells: show;
+}
+
+TD.tab2_header_active {
+    color: black;
+    font: bold 12px Verdana,Arial,Helvetica;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-bottom: 1px none gray;
+}
+
+TD.tab2_header_inactive {
+    color: Gray;
+    font: bold 12px Verdana,Arial,Helvetica;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid gray;
+    border-bottom: 1px solid black;
+    background-color: beige;
+    cursor: pointer;
+}
+
+TD.tab2_header_active_del {
+    color: orange;
+    font: normal 12px Verdana,Arial,Helvetica;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-bottom: 1px none gray;
+    font-style: italic;
+}
+
+TD.tab2_header_inactive_del {
+    color: orange;
+    font: normal 12px Verdana,Arial,Helvetica;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid gray;
+    border-bottom: 1px solid black;
+    background-color: beige;
+    cursor: pointer;
+    font-style: italic;
+}
+
+TD.tab2_header_space {
+    border-color: gray;
+    border-collapse: collapse;
+    border: 2px transparent;
+}
+
+TD.tab2_body {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding:10px;
+}
+/************************************************************/
+
+a.intab:hover {
+    color: rgb(200,40,0);
+    text-decoration: underline;
+}
+
+a.intab:visited {
+}
+
+.del {
+    font-size: 4px;
+}
+
+.normal {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.warning {
+    color: rgb(220,10,10);
+}
+
+.smallinfo {
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.code {
+    font-family: Courier;
+}
+
+.NavButton {
+    font-size: 12px;
+}
+
+/* NEW */
+.buttonSearch {
+    height: 20px;
+    border: 1px solid #ccc;
+    background: url(../Images/search.png) center center no-repeat;
+}
+
+    .buttonSearch:hover {
+        background: url(../Images/search_hover.png) center center repeat-x;
+    }
+
+.buttonAdvSearch {
+    height: 20px;
+    border: 1px solid #ccc;
+    background: url(../Images/adv_search.png) center center no-repeat;
+}
+
+    .buttonAdvSearch:hover {
+        background: url(../Images/adv_search_hover.png) center center repeat-x;
+    }
+
+.buttonCancelSearch {
+    height: 20px;
+    border: 1px solid #ccc;
+    background: url(../Images/search_cancel.png) center center no-repeat;
+}
+
+    .buttonCancelSearch:hover {
+        background: url(../Images/search_cancel_hover.png) center center repeat-x;
+    }
+
+.buttonNav {
+    font-family: Verdana, Arial, Sans-Serif;
+    font-size: 10px;
+    height: 20px;
+    border: 1px solid #ccc;
+    color: #030303;
+    background: url(../Images/button_fill_green.jpg) left bottom repeat-x;
+    filter: chroma(color=#000000);
+}
+
+    .buttonNav:hover {
+        background: url(../Images/button_fill.jpg) left top repeat-x;
+    }
+
+.textBox {
+    font-family: Verdana, Arial, Sans-Serif;
+    font-size: 11px;
+}
+
+.title {
+    color: #5b5448;
+    font-size: 12px;
+    font-family: Verdana, Arial, Sans-Serif;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 10px;
+    font-family: Tahoma, Arial, Sans-Serif;
+    font-weight: normal;
+    color: Black;
+    font-weight: bold;
+}
+
+.navLabel {
+    font-size: 10px;
+    font-family: Tahoma, Arial, Sans-Serif;
+    font-weight: bold;
+    color: Maroon;
+}
+
+.button {
+    font-family: Verdana, Arial, Sans-Serif;
+    font-size: 10px;
+    height: 20px;
+}
+
+.gridPager {
+    font-weight: bold;
+    font-size: 11px;
+    color: Maroon;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+    .gridPager a:active {
+        color: #696969;
+        text-decoration: underline;
+        font-size: 10px;
+        font-weight: normal;
+    }
+
+    .gridPager a:link {
+        color: #696969;
+        text-decoration: underline;
+        font-size: 10px;
+        font-weight: normal;
+    }
+
+    .gridPager a:hover {
+        color: darkred;
+        font-size: 10px;
+        text-decoration: none;
+        font-weight: normal;
+    }
+
+.gridFooter {
+    border-left: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+}
+
+    .gridFooter td {
+        border-left: 0px;
+        border-bottom: 0px;
+        border-right: 0px;
+    }
+
+.buttonNew {
+    font-family: Verdana, Arial, Sans-Serif;
+    font-size: 10px;
+    height: 20px;
+}
+
+TABLE.tab3 {
+    border: 1px none maroon;
+    border-collapse: collapse;
+    empty-cells: show;
+}
+
+TD.tab3_header_active {
+    color: rgb(150,20,0);
+    font: bold 8px Verdana,Arial,Helvetica;
+    text-align: center;
+    border-top: 1px solid maroon;
+    border-left: 1px solid maroon;
+    border-right: 1px solid maroon;
+    border-bottom: 1px solid maroon;
+    height: 10px;
+}
+
+TD.tab3_header_inactive {
+    color: black;
+    font: 8px Verdana,Arial,Helvetica;
+    text-align: center;
+    border: 1px solid darkgray;
+    border-bottom: 1px solid maroon;
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+TD.tab3_header_space {
+    border-bottom: 1px solid maroon;
+    border-size: 1px;
+}
+
+TD.tab3_body {
+    border-top: none;
+    border-left: 1px solid maroon;
+    border-right: 1px solid maroon;
+    border-bottom: 1px solid maroon;
+}
+
+TD.tab4_header_active {
+    color: rgb(150,20,0);
+    font: bold 10px Verdana,Arial,Helvetica;
+    text-align: center;
+    border-top: 1px solid maroon;
+    border-left: 1px solid maroon;
+    border-right: 1px solid maroon;
+    border-bottom: none;
+    height: 10px;
+}
+
+TD.tab4_header_inactive {
+    color: black;
+    font: 10px Verdana,Arial,Helvetica;
+    text-align: center;
+    border: 1px solid darkgray;
+    border-bottom: 1px solid maroon;
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+TD.tab4_header_space {
+    border-color: maroon;
+    border-top: hidden;
+    border-bottom: 1px solid maroon;
+    border-size: 1px;
+}
+
+.header {
+    color: Maroon;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-top: 10px;
+    font-family: Verdana, Arial, Sans-Serif;
+    font-weight: normal;
+    font-size: 20px;
+    background: url(../Images/square_maroon.png) left center no-repeat;
+    padding-left: 15px;
+}
+
+.line_maroon {
+    background: url(../Images/line_maroon.png) left center repeat-x;
+    height: 40px;
+}
+
+.title {
+    color: #5b5448;
+    font-size: 12px;
+    font-family: Verdana, Arial, Sans-Serif;
+    font-weight: bold;
+}
+
+.tableDefRes {
+    font-family: Calibri,Tahoma,Verdana, Arial, Sans-Serif;
+    font-size: 12px;
+    border-collapse: collapse;
+    margin-top: 8px;
+    empty-cells: show;
+}
+
+.black_overlay {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    z-index: 1001;
+    -moz-opacity: 0.7;
+    opacity: .70;
+    filter: alpha(opacity=70);
+}
+
+.white_content {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    width: 400px;
+    padding: 0px;
+    border-left: 2px solid gray;
+    border-top: 2px solid gray;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    background-color: white;
+    z-index: 1002;
+    overflow: auto;
+}
+
+.hyperLink {
+    color: rgb(150,20,0);
+    font: bold 10px Verdana,Arial,Helvetica;
+    text-decoration: none;
+}
+
+    .hyperLink A:hover {
+        color: rgb(200,40,0);
+        text-decoration: underline;
+    }
+
+    .hyperLink A:visited {
+    }
+
+/* --------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------Nieu¿ywane - do wyrzucenia? --------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------- */
+
+legend {
+    font-size: 18px;
+    color: Maroon;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+.legendHeading {
+    font-size: 18px;
+    font-weight: bold;
+    color: Silver;
+}
+
+.Stabrow {
+    cursor: pointer;
+    padding: 2px 5px 2px 5px;
+    margin: 2px 0px 2px 0px;
+    color: rgb(0,0,80);
+    background: rgb(235,229,212);
+    font-size: 10px;
+}
+
+.SGtabrow {
+    cursor: pointer;
+    padding: 2px 5px 2px 5px;
+    margin: 2px 0px 2px 0px;
+    color: rgb(0,0,80);
+    background: rgb(245,229,212);
+    font-size: 10px;
+}
+
+.Stabsubrow {
+    cursor: pointer;
+    padding: 2px 5px 2px 5px;
+    margin: 2px 0px 2px 0px;
+    color: rgb(0,0,120);
+    background: rgb(245,239,222);
+    font-size: 10px;
+}
+
+.SGtabsubrow {
+    cursor: pointer;
+    padding: 2px 5px 2px 5px;
+    margin: 2px 0px 2px 0px;
+    color: rgb(0,0,120);
+    background: rgb(255,239,222);
+    font-size: 10px;
+}
+
+.NItabsubrow {
+    cursor: pointer;
+    padding: 2px 5px 2px 5px;
+    margin: 2px 0px 2px 0px;
+    color: rgb(0,0,120);
+    background: rgb(245,239,252);
+    font-size: 10px;
+}
+
+.Stabfoot {
+    cursor: pointer;
+    padding: 2px 5px 2px 5px;
+    margin: 2px 0px 2px 0px;
+    color: rgb(0,0,0);
+    background: rgb(205,209,202);
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.NItabfoot {
+    cursor: pointer;
+    padding: 2px 5px 2px 5px;
+    margin: 2px 0px 2px 0px;
+    color: rgb(0,0,0);
+    background: rgb(205,209,242);
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.boxlabelreq {
+    color: rgb(220,0,0);
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.boxlabellight {
+    color: rgb(0,0,60);
+    font-size: 10px;
+}
+
+.boxlabelreqlight {
+    color: rgb(220,0,0);
+    font-size: 10px;
+}
+
+.sort {
+    color: rgb(220,0,0);
+}
+
+/*raczej nieu¿ywane*/
+.sortrev {
+    color: rgb(0,120,0);
+}
+
+.tabheadsort {
+    margin: 2px 0px 2px 0px;
+    color: rgb(220,0,0);
+    background: rgb(210,180,140);
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tabheadsortrev {
+    margin: 2px 0px 2px 0px;
+    color: rgb(0,120,0);
+    background: rgb(210,180,140);
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btnbox {
+    margin: 2px;
+    border: rgb(210,180,140) 4px solid;
+    padding: 2px;
+    color: rgb(0,0,60);
+    background: rgb(235,229,212);
+    font: bold 11px Verdana;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btnboxactive {
+    margin: 2px;
+    border: rgb(235,229,212) 4px solid;
+    padding: 2px;
+    color: rgb(0,0,60);
+    font: bold 11px Verdana;
+    text-align: center;
+}
+
+.btnboxhover {
+    margin: 2px;
+    border: rgb(200,140,150) 4px solid;
+    padding: 2px;
+    color: rgb(0,0,60);
+    background: rgb(235,229,212);
+    font: bold 11px Verdana;
+    text-align: center;
+    cursor: pointer;
+}
+
+.listbody {
+    margin: 12px 8px 12px 8px;
+    scrollbar-3dlight-color: rgb(235,229,212);
+    scrollbar-arrow-color: rgb(135,109,102);
+    scrollbar-base-color: rgb(235,229,212);
+    scrollbar-darkshadow-color: rgb(235,229,212);
+    scrollbar-face-color: rgb(235,229,212);
+    scrollbar-highlight-color: rgb(135,109,102);
+    scrollbar-shadow-color: rgb(135,109,102);
+    scrollbar-track-color: rgb(235,229,212);
+}
+
+.buttonNavDisabled {
+    font-family: Verdana, Arial, Sans-Serif;
+    font-size: 10px;
+    height: 20px;
+    border: 1px solid #ccc;
+    color: #030303;
+    background: url(../Images/button_fill_green.jpg) left bottom repeat-x;
+}
+
+.wing3Button {
+    font-family: "Wingdings 3";
+    font-size: 14px;
+}
+
+.progress_bar {
+    position: absolute;
+    left: 5%;
+    top: 7%;
+    height: 73%;
+    z-index: 0;
+    display: inline-block;
+    border: solid;
+    border-width: 1px;
+    border-radius: 2px;
+}
+
+.progress_bar_parent {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.progress_bar_value {
+    z-index: 1;
+    position: relative;
+    display: inline-block;
+}
+
+.chart_area {
+    z-index: 0;
+    width: 365px;
+    height: 360px;
+    text-align: center;
+    background-color: rgba(255, 255, 255,1);
+    display: block;
+    padding:3px;
+}
+
+.chart {
+    width: 95%;
+    height: 95%;
+    background-color: rgba(255, 255, 255,1);
+    display: inline-block;
+}
+
+.time_button_column {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    height: 20px;
+}
+
+.time_button {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+    text-align: center;
+    height: 20px;
+}
+
+.label {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.table_style1 {
+    display: inline-block;
+    width: 660px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+}
+
+.table_left {
+    display: inline-block;
+    width: 660px;
+}
+
+
+
+
+.table_label {
+    width: auto;
+    height: 22px;
+    float: right;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: right;
+    line-height: 20px;
+}
+
+.table_label_content {
+    width: 75px;
+    height: 20px;
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: right;
+    line-height: 20px;
+}
+
+.table_label_content4 {
+    width: 100%;
+    height: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 20px;
+}
+
+.table_label_content2 {
+    width: inherit;
+    height: inherit;
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: right;
+    line-height: 20px;
+}
+
+.table_label_content3 {
+    width: 110px;
+    height: 20px;
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: right;
+    line-height: 20px;
+}
+
+.table_check_box {
+    width: 150px;
+    height: inherit;
+    float: left;
+    font-size: 10px;
+    text-align: center;
+}
+
+.table_cell {
+    height: 100%;
+}
+
+.table_input {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.table_dropdown {
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    float: left;
+}
+
+.table_button2 {
+    display: inline-block;
+    width: 54px;
+    height: 20px;
+    float: right;
+    text-align: center;
+    vertical-align: bottom;
+    padding: 0 0 0 0;
+    margin: 0;
+}
+
+.table_button_small {
+    display: inline-block;
+    width: 21px;
+    height: 20px;
+    text-align: center;
+    line-height: 10pt;
+    font-size: 12px;
+    vertical-align: bottom;
+    padding: 0 0 0 0;
+    margin: 0;
+}
+
+.table_button_small_webdings {
+    display: inline-block;
+    width: 21px;
+    height: 20px;
+    float: right;
+    text-align: center;
+    line-height: 10pt;
+    font-family: webdings;
+    font-size: 12px;
+    vertical-align: bottom;
+    padding: 0 0 0 0;
+}
+
+.image_button {
+}
+
+.categories_text {
+    text-align: left;
+    PADDING-TOP: 6px;
+    padding-bottom: 6px;
+    line-height: 9px;
+}
+
+.categories_row {
+    HEIGHT: 24px;
+}
+
+
+.tooltipstyle {
+    display: inline;
+    position: relative;
+}
+
+    .tooltipstyle:hover:after {
+        background: #333;
+        background: rgba(0, 0, 0, 0.7);
+        border-radius: 5px;
+        bottom: 26px;
+        color: #fff;
+        left: 20%;
+        padding: 5px 5px;
+        position: absolute;
+        z-index: 98;
+        width: 200%;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .tooltipstyle:hover:before {
+        border: solid;
+        border-color: #333 transparent;
+        border-width: 6px 6px 0 6px;
+        bottom: 20px;
+        content: "";
+        left: 50%;
+        position: absolute;
+        z-index: 99;
+    }
+
+    .tooltipstyle:hover {
+        text-decoration: none;
+    }
+
+#tooltipstyle_JSButtonL.tooltipstyle:hover:after {
+    content: "Show next older date";
+}
+
+#tooltipstyle_JSButtonR.tooltipstyle:hover:after {
+    content: "Hide the oldest shown date";
+}
+
+#tooltipstyle_Button_time_scale_left.tooltipstyle:hover:after {
+    content: "Show less detailed time data";
+}
+
+#tooltipstyle_Button_time_scale_right.tooltipstyle:hover:after {
+    content: "Show more detailed time data";
+}

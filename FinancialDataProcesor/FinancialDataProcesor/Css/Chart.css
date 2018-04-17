@@ -1,0 +1,95 @@
+
+.reports_chart_area {
+    z-index: 0;
+    text-align: center;
+    /*background-color: rgba(255, 255, 255,1);*/
+    display: block;
+    padding: 3px;
+}
+
+.reports_chart {
+    width: 90%;
+    height: auto;
+    background-color: rgba(255, 255, 255,1);
+    display: inline-block;
+}
+.reports_chart_side {
+    text-align: right;
+}
+
+.time_button_column {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    height: 20px;
+}
+.reports_label {
+    margin-top: 6px;
+    margin-bottom: 4px;
+    color: rgb(0,0,60);
+    font: 12px Verdana,Arial,Helvetica;
+}
+
+.time_button {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+    text-align: center;
+    height: 20px;
+}
+
+
+.reports_tooltipstyle {
+    display: inline;
+    position: relative;
+}
+
+    .reports_tooltipstyle:hover:after {
+        background: #333;
+        background: rgba(0, 0, 0, 0.7);
+        border-radius: 5px;
+        bottom: 26px;
+        color: #fff;
+        left: 20%;
+        padding: 5px 5px;
+        position: absolute;
+        z-index: 98;
+        width: 200%;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .reports_tooltipstyle:hover:before {
+        border: solid;
+        border-color: #333 transparent;
+        border-width: 6px 6px 0 6px;
+        bottom: 20px;
+        content: "";
+        left: 50%;
+        position: absolute;
+        z-index: 99;
+    }
+
+    .reports_tooltipstyle:hover {
+        text-decoration: none;
+    }
+
+#chart_tooltipstyle_timebuttonL.reports_tooltipstyle:hover:after {
+    content: "Show next older date";
+}
+
+#chart_tooltipstyle_timebuttonR.reports_tooltipstyle:hover:after {
+    content: "Hide the oldest shown date";
+}
+
+#chart_tooltipstyle_scalebuttonL.reports_tooltipstyle:hover:after {
+    content: "Show less detailed time data";
+}
+
+#chart_tooltipstyle_scalebuttonR.reports_tooltipstyle:hover:after {
+    content: "Show more detailed time data";
+}
+.reports_smalltext {
+    font-size: 10px;
+}
